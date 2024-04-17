@@ -57,7 +57,6 @@ int main() {
         printf("\n");
     }
 
-    // Display and write student details to a file
     file = fopen(filename, "w");
     if (file != NULL) {
         for (int i = 0; i < 2; i++) {
@@ -84,7 +83,6 @@ int main() {
         printf("\n");
     }
 
-    // Allow user to edit details for one student
     int student_choice;
     printf("Enter the student number to edit details (1 or 2): ");
     scanf("%d", &student_choice);
